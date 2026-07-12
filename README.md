@@ -39,7 +39,7 @@ delivery    own the outcome, not just the ticket
   <img src="https://img.shields.io/badge/C-0E141B?style=flat-square&logo=c&logoColor=E6EDF3" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-0E141B?style=flat-square&logo=cplusplus&logoColor=55E6C1" alt="C++" />
   <img src="https://img.shields.io/badge/C%23-0E141B?style=flat-square&logo=dotnet&logoColor=FFB454" alt="C#" />
-  <img src="https://img.shields.io/badge/Go-0E141B?style=flat-square&logo=go&logoColor=55E6C1" alt="Go" />
+  <img src="https://img.shields.io/badge/Golang-0E141B?style=flat-square&logo=go&logoColor=55E6C1" alt="Golang" />
   <img src="https://img.shields.io/badge/Rust-0E141B?style=flat-square&logo=rust&logoColor=E6EDF3" alt="Rust" />
   <img src="https://img.shields.io/badge/Swift-0E141B?style=flat-square&logo=swift&logoColor=FFB454" alt="Swift" />
   <img src="https://img.shields.io/badge/Ruby-0E141B?style=flat-square&logo=ruby&logoColor=FFB454" alt="Ruby" />
@@ -89,6 +89,19 @@ delivery    own the outcome, not just the ticket
   <img src="https://img.shields.io/badge/Material_Design-0E141B?style=flat-square&logo=materialdesign&logoColor=FFB454" alt="Material Design" />
 </p>
 
+## IDEs & development environments
+
+<p>
+  <img src="https://img.shields.io/badge/GoLand-0E141B?style=flat-square&logo=goland&logoColor=55E6C1" alt="GoLand" />
+  <img src="https://img.shields.io/badge/RustRover-0E141B?style=flat-square&logo=rustrover&logoColor=FFB454" alt="RustRover" />
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0E141B?style=flat-square&logo=intellijidea&logoColor=FFB454" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/PyCharm-0E141B?style=flat-square&logo=pycharm&logoColor=55E6C1" alt="PyCharm" />
+  <img src="https://img.shields.io/badge/PhpStorm-0E141B?style=flat-square&logo=phpstorm&logoColor=55E6C1" alt="PhpStorm" />
+  <img src="https://img.shields.io/badge/WebStorm-0E141B?style=flat-square&logo=webstorm&logoColor=FFB454" alt="WebStorm" />
+  <img src="https://img.shields.io/badge/VS_Code-0E141B?style=flat-square&logo=visualstudiocode&logoColor=55E6C1" alt="Visual Studio Code" />
+  <img src="https://img.shields.io/badge/Xcode-0E141B?style=flat-square&logo=xcode&logoColor=55E6C1" alt="Xcode" />
+</p>
+
 ## Infrastructure & tooling
 
 <p>
@@ -97,6 +110,7 @@ delivery    own the outcome, not just the ticket
   <img src="https://img.shields.io/badge/Linux-0E141B?style=flat-square&logo=linux&logoColor=FFB454" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-0E141B?style=flat-square&logo=git&logoColor=FFB454" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub_Actions-0E141B?style=flat-square&logo=githubactions&logoColor=55E6C1" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Cargo-0E141B?style=flat-square&logo=rust&logoColor=FFB454" alt="Cargo" />
   <img src="https://img.shields.io/badge/Postman-0E141B?style=flat-square&logo=postman&logoColor=FFB454" alt="Postman" />
   <img src="https://img.shields.io/badge/Swagger-0E141B?style=flat-square&logo=swagger&logoColor=55E6C1" alt="Swagger" />
   <img src="https://img.shields.io/badge/Cloudflare-0E141B?style=flat-square&logo=cloudflare&logoColor=FFB454" alt="Cloudflare" />
