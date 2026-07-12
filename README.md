@@ -15,18 +15,18 @@
   <img src="https://komarev.com/ghpvc/?username=fanyqe&style=for-the-badge&color=0E8A78&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-## Merhaba, ben `fanyqe`
+## Hi, I'm `fanyqe`
 
-Fikirleri çalışan, güvenli ve sade web ürünlerine dönüştürüyorum. API tasarımı,
-otomasyon ve kullanıcı deneyiminin aynı sistem içinde düzgün çalışmasını seviyorum.
+I turn ideas into reliable, secure, and focused web products. I enjoy making API
+design, automation, and user experience work together as one coherent system.
 
 ```text
-odak        full-stack ürünler · API entegrasyonları · otomasyon
-yaklaşım    temiz mimari · güvenli varsayılanlar · ölçülebilir sonuçlar
-prensip     önce çalıştır, sonra sadeleştir, daima iyileştir
+focus       full-stack products · API integrations · automation
+approach    clean architecture · secure defaults · measurable outcomes
+principle   make it work · make it clear · keep improving
 ```
 
-## Kullandığım teknolojiler
+## Technologies I work with
 
 <p>
   <img src="https://img.shields.io/badge/Python-0E141B?style=flat-square&logo=python&logoColor=55E6C1" alt="Python" />
@@ -42,14 +42,14 @@ prensip     önce çalıştır, sonra sadeleştir, daima iyileştir
   <img src="https://img.shields.io/badge/Git-0E141B?style=flat-square&logo=git&logoColor=FFB454" alt="Git" />
 </p>
 
-## Üretim çizgim
+## How I build
 
-- **Backend:** güvenli API’ler, servis katmanları ve üçüncü taraf entegrasyonları
-- **Frontend:** hızlı, erişilebilir ve mobil öncelikli ürün arayüzleri
-- **Operasyon:** tekrarlanabilir dağıtım, gözlemlenebilirlik ve otomasyon
-- **Kalite:** test kanıtı, küçük geri alınabilir değişiklikler ve temiz sözleşmeler
+- **Backend:** secure APIs, service layers, and third-party integrations
+- **Frontend:** fast, accessible, and mobile-first product interfaces
+- **Operations:** repeatable deployments, observability, and automation
+- **Quality:** test evidence, small reversible changes, and clear contracts
 
-## GitHub akışı
+## GitHub activity
 
 <p align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=fanyqe&theme=github_dark" alt="fanyqe GitHub activity summary" />
