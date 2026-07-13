@@ -26,6 +26,31 @@ standard    secure · observable · maintainable
 delivery    own the outcome, not just the ticket
 ```
 
+## From idea to production
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/pipeline-mobile.svg" />
+    <img src="./assets/pipeline.svg" width="100%" alt="Animated product delivery pipeline" />
+  </picture>
+</p>
+
+## What I build
+
+- **Product platforms:** cohesive web and mobile experiences backed by stable APIs
+- **Integration-heavy systems:** payments, messaging, search, notifications, and third parties
+- **Operational tooling:** automation that replaces repetitive work with dependable workflows
+- **Data-aware products:** clear models, deliberate state transitions, and useful reporting
+
+## Systems thinking
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/systems-mobile.svg" />
+    <img src="./assets/systems.svg" width="100%" alt="Animated production system architecture" />
+  </picture>
+</p>
+
 ## Languages
 
 <p>
@@ -125,6 +150,22 @@ delivery    own the outcome, not just the ticket
 - **Integration depth:** stable contracts across APIs, data, queues, payments, and third parties
 - **Product judgment:** clear interfaces, mobile-first decisions, and measurable outcomes
 
+## Working style
+
+1. Understand the real problem before polishing the solution.
+2. Define contracts and failure modes before the happy path gets too comfortable.
+3. Ship in small reversible steps, then verify the actual outcome.
+4. Leave the system easier to understand than I found it.
+
+## Notes from the terminal
+
+> “Make it work. Make it clear. Make it observable.”
+
+- “Works on my machine” is a clue, not a release note.
+- I prefer boring infrastructure. Excitement belongs in the product, not the incident channel.
+- I write rollback plans because optimism is not version control.
+- Coffee helps. Logs help more.
+
 ## Engineering activity
 
 <p align="center">
@@ -138,5 +179,5 @@ delivery    own the outcome, not just the ticket
 ---
 
 <p align="center">
-  <sub><code>build quietly · ship clearly · improve relentlessly</code></sub>
+  <sub><code>build quietly · ship clearly · debug patiently · improve relentlessly</code></sub>
 </p>

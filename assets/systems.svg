@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Production systems thinking</title>
+  <desc id="desc">Animated flow from clients through edge, services, data, and observability</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B10" />
+      <stop offset="1" stop-color="#111A23" />
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55E6C1" />
+      <stop offset="1" stop-color="#FFB454" />
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#22303D" stroke-width="1" opacity="0.3" />
+    </pattern>
+    <filter id="glow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="22" fill="url(#bg)" />
+  <rect width="1200" height="380" rx="22" fill="url(#grid)" />
+  <rect x="24" y="24" width="1152" height="332" rx="16" fill="#0E141B" fill-opacity="0.86" stroke="#2B3947" />
+
+  <text x="58" y="68" fill="#55E6C1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="3">SYSTEM MAP</text>
+  <text x="1142" y="68" text-anchor="end" fill="#708090" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">healthy paths + honest failure modes</text>
+
+  <g stroke="#2D4252" stroke-width="2" stroke-linecap="round">
+    <line x1="230" y1="186" x2="285" y2="186" />
+    <line x1="455" y1="186" x2="510" y2="186" />
+    <line x1="680" y1="186" x2="735" y2="186" />
+    <line x1="905" y1="186" x2="960" y2="186" />
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g transform="translate(70 132)">
+      <rect width="160" height="108" rx="14" fill="#111B24" stroke="#2B6570" />
+      <text x="80" y="35" text-anchor="middle" fill="#E6EDF3" font-size="15" font-weight="700">CLIENTS</text>
+      <text x="80" y="61" text-anchor="middle" fill="#55E6C1" font-size="12">web · mobile</text>
+      <text x="80" y="84" text-anchor="middle" fill="#708090" font-size="11">clear UX</text>
+    </g>
+    <g transform="translate(295 132)">
+      <rect width="160" height="108" rx="14" fill="#111B24" stroke="#2B6570" />
+      <text x="80" y="35" text-anchor="middle" fill="#E6EDF3" font-size="15" font-weight="700">EDGE</text>
+      <text x="80" y="61" text-anchor="middle" fill="#55E6C1" font-size="12">auth · limits</text>
+      <text x="80" y="84" text-anchor="middle" fill="#708090" font-size="11">trust boundaries</text>
+    </g>
+    <g transform="translate(520 132)">
+      <rect width="160" height="108" rx="14" fill="#111B24" stroke="#3C756F" />
+      <text x="80" y="35" text-anchor="middle" fill="#E6EDF3" font-size="15" font-weight="700">SERVICES</text>
+      <text x="80" y="61" text-anchor="middle" fill="#55E6C1" font-size="12">domain · jobs</text>
+      <text x="80" y="84" text-anchor="middle" fill="#708090" font-size="11">business rules</text>
+    </g>
+    <g transform="translate(745 132)">
+      <rect width="160" height="108" rx="14" fill="#111B24" stroke="#8A6840" />
+      <text x="80" y="35" text-anchor="middle" fill="#E6EDF3" font-size="15" font-weight="700">DATA</text>
+      <text x="80" y="61" text-anchor="middle" fill="#FFB454" font-size="12">db · cache</text>
+      <text x="80" y="84" text-anchor="middle" fill="#708090" font-size="11">consistent state</text>
+    </g>
+    <g transform="translate(970 132)">
+      <rect width="160" height="108" rx="14" fill="#111B24" stroke="#8A6840" />
+      <text x="80" y="35" text-anchor="middle" fill="#E6EDF3" font-size="15" font-weight="700">SIGNALS</text>
+      <text x="80" y="61" text-anchor="middle" fill="#FFB454" font-size="12">logs · metrics</text>
+      <text x="80" y="84" text-anchor="middle" fill="#708090" font-size="11">know the outcome</text>
+    </g>
+  </g>
+
+  <g fill="#55E6C1">
+    <circle cx="230" cy="186" r="4">
+      <animate attributeName="cx" values="230;285" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="455" cy="186" r="4">
+      <animate attributeName="cx" values="455;510" dur="1.5s" begin="0.35s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="186" r="4">
+      <animate attributeName="cx" values="680;735" dur="1.5s" begin="0.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="905" cy="186" r="4" fill="#FFB454">
+      <animate attributeName="cx" values="905;960" dur="1.5s" begin="1.05s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <circle cx="600" cy="186" r="15" fill="#55E6C1" opacity="0.1" filter="url(#glow)">
+    <animate attributeName="r" values="12;22;12" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="600" y="310" text-anchor="middle" fill="#5F7080" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">the happy path is useful; the failure path is the product</text>
+</svg>

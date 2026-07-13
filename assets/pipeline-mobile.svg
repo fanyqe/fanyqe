@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720" role="img" aria-labelledby="title desc">
+  <title id="title">From idea to production</title>
+  <desc id="desc">A mobile animated five-stage product delivery pipeline</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080D12" />
+      <stop offset="1" stop-color="#111A23" />
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#55E6C1" />
+      <stop offset="0.72" stop-color="#55E6C1" />
+      <stop offset="1" stop-color="#FFB454" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#22303D" stroke-width="1" opacity="0.28" />
+    </pattern>
+  </defs>
+
+  <rect width="600" height="720" rx="24" fill="url(#bg)" />
+  <rect width="600" height="720" rx="24" fill="url(#grid)" />
+  <rect x="22" y="22" width="556" height="676" rx="18" fill="#0E141B" fill-opacity="0.88" stroke="#2B3947" />
+
+  <text x="52" y="66" fill="#55E6C1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">DELIVERY PIPELINE</text>
+  <text x="548" y="66" text-anchor="end" fill="#708090" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">rollback-ready</text>
+
+  <line x1="92" y1="132" x2="92" y2="584" stroke="#263746" stroke-width="6" stroke-linecap="round" />
+  <line x1="92" y1="132" x2="92" y2="584" stroke="url(#track)" stroke-width="2" stroke-linecap="round" />
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g transform="translate(92 132)">
+      <circle r="17" fill="#101A22" stroke="#55E6C1" stroke-width="2" />
+      <circle r="5" fill="#55E6C1" />
+      <text x="46" y="-2" fill="#E6EDF3" font-size="17" font-weight="700">IDEA</text>
+      <text x="46" y="22" fill="#7E8D9C" font-size="13">find the real problem</text>
+    </g>
+    <g transform="translate(92 245)">
+      <circle r="17" fill="#101A22" stroke="#55E6C1" stroke-width="2" />
+      <circle r="5" fill="#55E6C1" />
+      <text x="46" y="-2" fill="#E6EDF3" font-size="17" font-weight="700">CONTRACT</text>
+      <text x="46" y="22" fill="#7E8D9C" font-size="13">remove ambiguity</text>
+    </g>
+    <g transform="translate(92 358)">
+      <circle r="17" fill="#101A22" stroke="#55E6C1" stroke-width="2" />
+      <circle r="5" fill="#55E6C1" />
+      <text x="46" y="-2" fill="#E6EDF3" font-size="17" font-weight="700">BUILD</text>
+      <text x="46" y="22" fill="#7E8D9C" font-size="13">small reversible steps</text>
+    </g>
+    <g transform="translate(92 471)">
+      <circle r="17" fill="#101A22" stroke="#55E6C1" stroke-width="2" />
+      <circle r="5" fill="#55E6C1" />
+      <text x="46" y="-2" fill="#E6EDF3" font-size="17" font-weight="700">VERIFY</text>
+      <text x="46" y="22" fill="#7E8D9C" font-size="13">tests &gt; optimism</text>
+    </g>
+    <g transform="translate(92 584)">
+      <circle r="20" fill="#101A22" stroke="#FFB454" stroke-width="2" />
+      <circle r="6" fill="#FFB454">
+        <animate attributeName="r" values="5;8;5" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="46" y="-2" fill="#E6EDF3" font-size="17" font-weight="700">SHIP</text>
+      <text x="46" y="22" fill="#7E8D9C" font-size="13">monitor the outcome</text>
+    </g>
+  </g>
+
+  <circle cx="92" cy="132" r="4" fill="#E6EDF3">
+    <animate attributeName="cy" values="132;245;358;471;584" keyTimes="0;0.25;0.5;0.75;1" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="300" y="666" text-anchor="middle" fill="#5F7080" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">no production deploys powered by vibes</text>
+</svg>
